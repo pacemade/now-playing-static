@@ -195,3 +195,39 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media ( min-width: 768px ) {
+
+.site-nav {
+  bottom: unset;
+  right: unset;
+  width: unset;
+  height: 100%;
+  padding-top: 70px;
+}
+
+.site-logo {
+  width: 60px;
+  margin: -11px;
+  z-index: 101;
+}
+
+.site-nav-item {
+  clear: both;
+}
+
+li.site-nav-item{
+  display: block;
+  width: 70px;
+  text-align: center;
+}
+
+.movie-overview {
+  display: block;
+}
+
+.movie {
+  margin-left: 70px;
+}
+
+}
