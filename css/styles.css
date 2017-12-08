@@ -230,4 +230,27 @@ li.site-nav-item{
   margin-left: 70px;
 }
 
+section.about {
+  float: left;
+  width: 50%;
+}
+
+nav.footer-nav {
+  float: left;
+  width: 50%;
+  padding-left: 70px;
+  padding-top: 25px;
+
+}
+
+.footer-nav-list {
+  background-color: #333;
+  color: #fff;
+}
+
+html {
+  background-color: #333;
+}
+
+
 }
